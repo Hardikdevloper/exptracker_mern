@@ -27,3 +27,21 @@
 .bg-purple {
   background-color: var(--color-purple);
 }
+
+.chart-relative {
+  position: relative;
+
+}
+
+.chart-relative .title {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.form-input {
+  @apply mt-1 block w-full py-2 px-3 border border-gray-200 bg-white rounded-md
+  /* @layer focus: outline-none focus:ring-indigo-500 sm:text-sm */
+
+}
