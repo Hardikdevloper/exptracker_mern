@@ -10,6 +10,7 @@ routes.route('/api/transaction')
   .get(controller.create_transaction)
   .delete(controller.delete_transaction)
   
-routes.route('/api/lables')
-  .get(controller.get_Labels)
+routes.route('/api/labels')
+  .get(controller.get_labels)
+
 module.exports=routes;

@@ -7,7 +7,9 @@ const port= process.env.PORT || 5000;
 
 console.log(port,"port")
 //use middleware
-app.use(cors());
+app.use(cors({
+    origin: '*'
+}));
 app.use(express.json());
 
 //mongodb connection
